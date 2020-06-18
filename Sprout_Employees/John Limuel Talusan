@@ -23,9 +23,15 @@ Create and Switch Branch
 	git checkout -b <name ng branch>
 
 Restore code
-	git restore file <name ng file>
+	git restore --staged file <name ng file>
+
+Merge one branch to another branch
+	git checkout <to target branch>
+	git merge <from what branch> --no-ff
+	git push (write commit message)
 
 
+	--no-ff = no fast-forwarding
 
 
 master branch (PROD)
