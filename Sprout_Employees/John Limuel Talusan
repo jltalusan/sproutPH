@@ -1,0 +1,9 @@
+Age = 26
+
+
+git add <filename>
+	- ia-add yung file na tinuro mo
+git add .
+	- ia-add lahat ng changes mo
+
+
