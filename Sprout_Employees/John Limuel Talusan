@@ -1,11 +1,49 @@
 Age = 26
 
+local (git add) -> commit (git commit) -> origin branch (git push) -> merge (merge request)
+
 
 git add <filename>
 	- ia-add yung file na tinuro mo
 git add .
 	- ia-add lahat ng changes mo
 
+git commit -m '<message>'
+
+git push 
+	- files going to origin branch
+
+Create Branch
+	git branch <name ng branch>
+
+Switch Branch
+	git checkout <name ng branch>
+
+Create and Switch Branch
+	git checkout -b <name ng branch>
+
+Restore code
+	git restore --staged file <name ng file>
+
+Merge one branch to another branch
+	git checkout <to target branch>
+	git merge <from what branch> --no-ff
+	git push (write commit message)
 
 
-local (git add) -> commit (git commit) -> PROD (git push)
+	--no-ff = no fast-forwarding
+
+To get updates
+	git fetch origin master
+
+master branch (PROD)
+	- develop branch
+		- sprint branch 1
+					feature branch 1: Add email
+					feature branch 2: Login
+		- sprint branch 2 
+					feature branch 1: Add email
+					feature branch 2: Login
+		- sprint branch 3
+					feature branch 1: Add email
+					feature branch 2: Login
