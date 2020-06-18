@@ -33,6 +33,8 @@ Merge one branch to another branch
 
 	--no-ff = no fast-forwarding
 
+To get updates
+	git fetch origin master
 
 master branch (PROD)
 	- develop branch
