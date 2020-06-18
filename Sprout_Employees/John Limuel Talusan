@@ -7,3 +7,5 @@ git add .
 	- ia-add lahat ng changes mo
 
 
+
+local (git add) -> commit (git commit) -> PROD (git push)
